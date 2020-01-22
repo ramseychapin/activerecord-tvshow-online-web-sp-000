@@ -2,8 +2,7 @@
 
 
 def highest_rating
-  result = Show.create
-  result.maximum(:rating)
+  Show.maximum(:rating)
 end
 
 
