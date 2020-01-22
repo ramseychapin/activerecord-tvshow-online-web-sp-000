@@ -1,7 +1,7 @@
 
 
 
-def self.highest_rating
+def highest_rating
   Show.maximum(:rating)
 end
 
