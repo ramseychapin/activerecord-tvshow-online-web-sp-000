@@ -1,5 +1,5 @@
 def highest_rating
-  Show.find_by rating.maximum
+  Show.find_by
 end
 
 
