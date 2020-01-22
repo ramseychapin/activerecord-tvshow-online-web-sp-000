@@ -2,6 +2,7 @@
 
 
 def highest_rating
+  result = Show.new
   Show.maximum(rating)
 end
 
