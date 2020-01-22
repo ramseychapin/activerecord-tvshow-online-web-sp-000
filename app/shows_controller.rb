@@ -1,5 +1,5 @@
 def highest_rating
-  Show.order("value DESC").first
+  Show.find_by()
 end
 
 
