@@ -1,10 +1,10 @@
 def highest_rating
-  Show.order("value DESC").first
+
 end
 
 
 def most_popular_show
-
+  Show.order("value DESC").first
 end
 
 def lowest_rating
