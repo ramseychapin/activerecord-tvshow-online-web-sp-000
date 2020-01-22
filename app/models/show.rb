@@ -15,7 +15,7 @@ class Show < ActiveRecord::Base
 
   end
 
-  def ratings_sum
+  def self.ratings_sum
 
   end
 
