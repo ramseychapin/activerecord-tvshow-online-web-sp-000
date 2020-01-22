@@ -1,5 +1,6 @@
 def highest_rating
-  Show.maximum(:rating)
+  result = Show.maximum(:rating)
+  result
 end
 
 
