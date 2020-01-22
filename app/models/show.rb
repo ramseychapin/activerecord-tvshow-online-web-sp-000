@@ -1,3 +1,3 @@
-def Show < ActiveRecord::based
+class Show < ActiveRecord::based
 
 end
